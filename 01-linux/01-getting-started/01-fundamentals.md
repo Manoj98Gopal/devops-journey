@@ -1,4 +1,4 @@
-[<-Back](../../README.md)         [Next->](02-linux-structure.md)
+[<-Back](../../README.md) | [Next->](02-linux-structure.md)
 
 # 🖥️ What is an Operating System?
 
