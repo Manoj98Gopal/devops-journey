@@ -1,8 +1,9 @@
-[<-Back](02-linux-structure.md) | [Index](../../README.md) | [Next->](03-linux-distribution.md) 
+[<-Back](02-linux-structure.md) | [Index](../../README.md) | [Next->](04-package-manager.md)
 
 # 🐧 Linux Distributions (Distros)
 
 ## 📌 What is a Linux Distribution?
+
 Linux kernel is **open source**
 Anyone can take the kernel
 add their own tools, features, UI on top
@@ -12,6 +13,7 @@ That is called a **Linux Distribution (Distro)**
 ---
 
 ## 💡 Simple Analogy
+
 Think of Linux kernel like a **car engine** 🚗
 
 ```
@@ -27,6 +29,7 @@ Same engine inside — different body outside!
 ---
 
 ## 📌 Important Point
+
 > The **core kernel is same** in all distros!
 > Only tools, package managers
 > and features on top are different!
@@ -43,6 +46,7 @@ Alpine  →  same Linux kernel + apk + very minimal
 ## 🌳 Distro Families
 
 ### 1️⃣ Debian Family
+
 ```
 Debian  ← base
 ├── Ubuntu        ← most popular for developers
@@ -51,6 +55,7 @@ Debian  ← base
 ```
 
 ### 2️⃣ Red Hat Family
+
 ```
 Red Hat Enterprise Linux (RHEL)  ← base
 ├── CentOS        ← free version of RHEL
@@ -59,6 +64,7 @@ Red Hat Enterprise Linux (RHEL)  ← base
 ```
 
 ### 3️⃣ Alpine Family
+
 ```
 Alpine Linux  ← very minimal and lightweight
               ← most popular in Docker containers
@@ -68,37 +74,24 @@ Alpine Linux  ← very minimal and lightweight
 
 ## 📂 Popular Distros Explained
 
-| Distro | Who Uses It | Why |
-|---|---|---|
-| **Ubuntu** | developers, beginners | easy to use, huge community |
-| **Debian** | servers, advanced users | very stable and reliable |
-| **CentOS** | enterprise servers | stable, free RHEL version |
-| **Alpine** | Docker containers | very small size (5MB only!) |
-| **Kali Linux** | security engineers | has hacking tools built in |
-| **Amazon Linux** | AWS servers | optimized for AWS cloud |
+| Distro           | Who Uses It             | Why                         |
+| ---------------- | ----------------------- | --------------------------- |
+| **Ubuntu**       | developers, beginners   | easy to use, huge community |
+| **Debian**       | servers, advanced users | very stable and reliable    |
+| **CentOS**       | enterprise servers      | stable, free RHEL version   |
+| **Alpine**       | Docker containers       | very small size (5MB only!) |
+| **Kali Linux**   | security engineers      | has hacking tools built in  |
+| **Amazon Linux** | AWS servers             | optimized for AWS cloud     |
 
 ---
 
-## 📦 Package Manager — Key Difference
-
-> Each distro family has its own
-> **package manager** to install software
-
-| Family | Package Manager | Install Command |
-|---|---|---|
-| Debian / Ubuntu | `apt` | `apt install nginx` |
-| RedHat / CentOS | `yum` or `dnf` | `yum install nginx` |
-| Alpine | `apk` | `apk add nginx` |
-
----
 
 ## 🎯 DevOps — Which Distros You Will See
 
-| Where | Distro |
-|---|---|
-| Your local machine | Ubuntu ✅ |
-| AWS EC2 servers | Amazon Linux / Ubuntu |
-| Docker containers | Alpine / Ubuntu |
-| Enterprise servers | CentOS / RHEL |
-| Security testing | Kali Linux |
-
+| Where              | Distro                |
+| ------------------ | --------------------- |
+| Your local machine | Ubuntu ✅             |
+| AWS EC2 servers    | Amazon Linux / Ubuntu |
+| Docker containers  | Alpine / Ubuntu       |
+| Enterprise servers | CentOS / RHEL         |
+| Security testing   | Kali Linux            |
