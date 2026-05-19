@@ -1,4 +1,4 @@
-[<-Back](01-fundamentals.md) | [Index](../../README.md) | [Next->](02-linux-structure.md) 
+[<-Back](01-fundamentals.md) | [Index](../../README.md) | [Next->](03-linux-distribution.md) 
 
 # 🐧 Linux Architecture & Structure
 
@@ -164,19 +164,3 @@ Kernel → Device Driver → Hardware
 > Hardware speaks another language
 > Device Driver translates between them!
 
----
-
-## 🧠 Summary
-
-| Layer | Job |
-|---|---|
-| Applications | programs you use |
-| Shell / Bash | interface between you and kernel |
-| System Libraries | ready made code for programs |
-| System Utilities | basic linux commands |
-| Kernel | heart of linux — manages everything |
-| Device Drivers | helps kernel talk to hardware |
-| Hardware | physical machine |
-
-> **Simple Flow:**
-> You → Shell → Libraries/Utilities → Kernel → Device Driver → Hardware
