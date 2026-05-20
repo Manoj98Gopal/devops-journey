@@ -1,4 +1,4 @@
-[<-Back](../01-getting-started/04-package-manager.md) | [Index](../../README.md) | [Next->]() 
+[<-Back](../01-getting-started/04-package-manager.md) | [Index](../../README.md) | [Next->](../03-user-management/01-user-management.md) 
 
 # 📁 Linux Folder Structure
 
