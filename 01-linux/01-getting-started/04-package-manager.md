@@ -1,4 +1,4 @@
-[<-Back](03-linux-distribution.md) | [Index](../../README.md) | [Next->]() 
+[<-Back](03-linux-distribution.md) | [Index](../../README.md) | [Next->](../02-folder-structure/01-folder-structure.md) 
 
 
 # 📦 Package Manager
