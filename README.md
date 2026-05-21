@@ -14,5 +14,4 @@
 - [03 - User management](/01-linux/03-user-management/01-user-management.md)
 - [04 - File management](/01-linux/04-file-management/01-file-management.md)
 - [05 - VI shortcuts](/01-linux/05-vi-shortcut/01-vi-shortcut.md)
-
-
+- [06 - File permissions](/01-linux/06-file-permissions/01-file-permissions.md)

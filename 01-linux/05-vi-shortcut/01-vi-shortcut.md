@@ -1,4 +1,4 @@
-[<-Back](../04-file-management/01-file-management.md) | [Index](../../README.md) | [Next->]() 
+[<-Back](../04-file-management/01-file-management.md) | [Index](../../README.md) | [Next->](../06-file-permissions/01-file-permissions.md) 
 
 # 📝 VI Editor in Linux
 
